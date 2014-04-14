@@ -1,0 +1,15 @@
+
+{% include header.html %}
+
+<div class="twelve columns" id="blogpost" style="background-color: #3a3a3a">
+	<div style="Padding: 20px; margin-left: auto; margin-right: auto;">
+	<h2>{{ page.title }}</h2>
+	<p class="meta">{{ page.date | date_to_string }}</p>
+
+	<div class="post">
+	{{ content }}
+	</div>
+	</div>
+</div> <!--end blogpost-->
+
+{% include footer.html %}
