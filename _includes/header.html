@@ -14,9 +14,9 @@
 	<!-- CSS
   ================================================== -->
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/base.css">
-	<link rel="stylesheet" href="/css/skeleton.css">
-	<link rel="stylesheet" href="/css/layout.css">
+	<link rel="stylesheet" href="/static/css/base.css">
+	<link rel="stylesheet" href="/static/css/skeleton.css">
+	<link rel="stylesheet" href="/static/css/layout.css">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 	</script>
@@ -34,12 +34,10 @@
 			</div> <!--end header-->
 
 			<div class="two columns" id="left-bar" style="margin-top:40px; ">
-				<ul>
-					<li><a href="/">Blog</a></li>
+                <ul><h5>
+				    <li><a href="/">Blog</a></li>
 					<li><a href="/about/">About Me</a></li>
-					<li><a href="/resume/">Resumé</a></li>
-					<li><a href="/contact/">Contact</a></li>
-				<script>
+                    </h5><script>:w
 				  $(document).ready(function() {
    				 	$("[href]").each(function() {
     				if (this.href == window.location.href) {
@@ -48,5 +46,18 @@
     				});
 				});
 				</script>
+                <a href="mailto:ndcampbell@gmail.com">
+                    <img src="/static/icons/email.png">
+                </a>
+                    <a href="https://www.linkedin.com/in/n-douglas-campbell-39989657">
+                <img src="/static/icons/linkedin.png">
+                </a>
+                <a href="https://www.facebook.com/Douglas.Campbell99">
+                    <img src="/static/icons/facebook.png">
+                </a>
+                <a href="https://twitter.com/NDougOps">
+                    <img src="/static/icons/twitter-1.png">
+                </a>
+
 			</div><!--end sidebar-->
 
